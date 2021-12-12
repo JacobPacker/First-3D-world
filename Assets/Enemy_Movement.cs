@@ -5,49 +5,95 @@ using UnityEngine.UI;
 
 public class Enemy_Movement : MonoBehaviour
 {
-    public GameObject player;
-    public float timeRemaining = 10;
-    public int state = 0;
-    private float speed = 5f;
-    private Rigidbody rb;
-    public bool timerIsRunning = false;
-
+    private float nextStateTimer;
+    private int state;
+    private string stateText;
+    
     // Start is called before the first frame update
     void Start()
     {
-        timerIsRunning = true;
+        state = 0;
+        nextStateTimer = 2;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (timerIsRunning)
-        {
-            if (timeRemaining > 0)
-            {
-                timeRemaining -= Time.deltaTime;
-                state == 0;
-            }
-            else
-            {
-                timeRemaining = 0;
-                timerIsRunning = false;
-                state == 1;
-            }
-        }
-        Vector3 velocity = rb.velocity;
-        velocity.x = 0;
+        ProcessStates();
+
+    }
+    // State logic - switch states depending on what logic we want to apply
+    void ProcessStates()
+    {
+        nextStateTimer -= Time.deltaTime;
+
         if (state == 0)
         {
-            speed = 0f;
-            velocity.x = 0;
+            Idle();
+
+            if (nextStateTimer < 0)
+            {
+                state = 1;
+                nextStateTimer = 0.1;
+            }
         }
+
         if (state == 1)
         {
-            speed = 5f;
-            velocity.x = 5;
+
+            Turn();
+            if (nextStateTimer < 0)
+            {
+                state = 2;
+                nextStateTimer = 2;
+            }
+
         }
-        
+
+        if (state == 2)
+        {
+            if (nextStateTimer < 0)
+            {
+                state = 0;
+                nextStateTimer = 2;
+            }
+
+            Walk();
+        }
+
+    }
+
+
+    // Different AI Update methods
+    void Idle()
+    {
+        print("Idle");
+        stateText = "Idle";
         
     }
+
+    void Turn()
+    {
+        print("Turn");
+        stateText = "Turn";
+    }
+
+    void Walk()
+    {
+        
+        print("Walk");
+        stateText = "Walk";
+    }
+
+
+
+
+
+    void OnGUI()
+    {
+        string content = nextStateTimer.ToString();
+        string state = stateText;
+        GUILayout.Label($"<color='black'><size=40>State= {state}\n{content}</size></color>");
+    }
 }
+

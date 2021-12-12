@@ -15,12 +15,12 @@ C:/Users/lisam/Documents/GitHub/First 3D world
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53345
+57084
 Successfully changed project path to: C:/Users/lisam/Documents/GitHub/First 3D world
 C:/Users/lisam/Documents/GitHub/First 3D world
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 152.17 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 1.78 ms.
+Refreshing native plugins compatible for Editor in 123.16 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.63 ms.
 Initialize engine version: 2021.1.18f1 (25bdc3efbc2d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.18f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/lisam/Documents/GitHub/First 3D world/Assets
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004469 seconds.
+Registered in 0.002792 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 125.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 130.03 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.614 seconds
+- Completed reload, in  1.985 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3615ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (1985ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (726ms)
-			LoadAssemblies (163ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (718ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
+			SetupTypeCache (242ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (354ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (351ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (126ms)
+				RefreshPlugins (130ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadAttributes (154ms)
 				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,13 +73,13 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.029534 seconds.
+Registered in 0.013362 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\lisam\Documents\GitHub\First 3D world\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\lisam\Documents\GitHub\First 3D world\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 111.05 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 167.20 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -100,45 +100,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.068 seconds
+- Completed reload, in  2.559 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2069ms)
-		BeginReloadAssembly (239ms)
+	ReloadAssembly (2560ms)
+		BeginReloadAssembly (311ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1727ms)
-			LoadAssemblies (216ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (2129ms)
+			LoadAssemblies (209ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (524ms)
+			SetupTypeCache (660ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (767ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (995ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (111ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (510ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (168ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (650ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.19 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
 Unloading 3495 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 126.8 MB.
 System memory in use after: 127.1 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3942.
-Total: 6.410600 ms (FindLiveObjects: 0.410000 ms CreateObjectMapping: 0.218400 ms MarkObjects: 5.671300 ms  DeleteObjects: 0.108800 ms)
+Total: 8.094600 ms (FindLiveObjects: 0.725300 ms CreateObjectMapping: 0.590100 ms MarkObjects: 6.669800 ms  DeleteObjects: 0.107300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -153,48 +153,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/PolygonStarter/Models
-  artifactKey: Guid(78edfa7ec30713c4eb8b09f84a29ec1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Models using Guid(78edfa7ec30713c4eb8b09f84a29ec1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5add060b8c6f005d3428eac611b4f2') in 0.023524 seconds 
+  path: Assets/XR
+  artifactKey: Guid(73328aec61ada8c4fb538c9ace2b5c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(73328aec61ada8c4fb538c9ace2b5c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc0e73d50b6c8fc3b743d39035627c5') in 0.025479 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000503 seconds.
+  Time since last request: 319.498314 seconds.
   path: Assets/Enemy_Movement.cs
   artifactKey: Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy_Movement.cs using Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce10c83642dfad246d18026a08b30c48') in 0.071476 seconds 
+Start importing Assets/Enemy_Movement.cs using Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d905e1fa3a703460f4b05526fa20796') in 0.059989 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 134.861056 seconds.
+  Time since last request: 82.512409 seconds.
   path: Assets/Enemy_Movement.cs
   artifactKey: Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy_Movement.cs using Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ebd9ac055b897b5ae52b749ba2aecb') in 0.007875 seconds 
+Start importing Assets/Enemy_Movement.cs using Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccaba96829f2b798d2295b2090d58ba5') in 0.005001 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 434.400518 seconds.
+  Time since last request: 1184.296071 seconds.
   path: Assets/Enemy_Movement.cs
   artifactKey: Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy_Movement.cs using Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b613b1a50cbcb3ab6bf1e3de2e67c30') in 0.005164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3415.368882 seconds.
-  path: Assets/Enemy_Movement.cs
-  artifactKey: Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy_Movement.cs using Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6618796a21dddb995bc3a0165217bb87') in 0.013783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.540099 seconds.
-  path: Assets/Enemy_Movement.cs
-  artifactKey: Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy_Movement.cs using Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7622b39bec9810f6d7b5f1198f6729') in 0.006135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3424.118757 seconds.
-  path: Assets/Enemy_Movement.cs
-  artifactKey: Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy_Movement.cs using Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037a22487cb88b6ddb281353b306617e') in 0.007338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.551190 seconds.
-  path: Assets/Enemy_Movement.cs
-  artifactKey: Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy_Movement.cs using Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7a73b7b5d24f33fb0d5f8d348becd6') in 0.007600 seconds 
+Start importing Assets/Enemy_Movement.cs using Guid(a212cd8debf2fac4fb32f7dbd9748e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f93a507fc66ba8be3c0c384973d23dc') in 0.005835 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
